@@ -9,15 +9,20 @@ Welcome to the **Password Strength Checker!** This is a simple yet powerful tool
 
 ## How It Works
 The Password Strength Checker evaluates your password based on the following criteria:
+
 **Length:** Password should be at least 8 characters long.
+
 **Uppercase and Lowercase Letters**: Password should contain both uppercase and lowercase letters.
+
 **Numbers:** Password should contain at least one number.
+
 **Special Characters:** Password should contain at least one special character (!@#$%^&).
+
 Based on these criteria, the tool calculates a score and provides feedback on how to improve your password.
 
 ### Demo
 You can try the live demo of the Password Strength Checker here:
-Streamlit App
+https://passwordstrengthcheckerpythonproject.streamlit.app/
 
 ### How to Use
 Open the app or run it locally.
@@ -45,12 +50,12 @@ Install the required dependencies:
 
 bash
 Copy
-pip install streamlit
+### pip install streamlit
 Run the Streamlit app:
 
 bash
 Copy
-streamlit run app.py
+### streamlit run app.py
 Open your browser and navigate to http://localhost:8501 to use the app.
 
 ### Technologies Used
